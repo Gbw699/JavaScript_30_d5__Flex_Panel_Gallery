@@ -46,7 +46,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     font-size: 40px;
     flex: 5;
-
+    transition: ease-in-out 0.8s;
 }
 
 .open h2 {
@@ -88,7 +88,7 @@ body {
 }
 
 .container4 {
-    background-image: url(img/road-g63af6fa31_1920.jpg);
+    background-image: url(img/forest-g4f4a80179_1920.jpg);
 }
 
 .container5 {
