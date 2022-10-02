@@ -44,34 +44,34 @@ body {
     border-right: 2px solid rgba(0, 0, 0, 1);
     border-left: 2px solid rgba(0, 0, 0, 1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-    font-size: 40px;
+
     flex: 5;
     transition: ease-in-out 0.8s;
 }
 
 .open h2 {
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: ease-in-out 0.5s;
+    font-size: 70px;
+    transition: ease-in-out 0.8s;
 }
 
 .container>*:first-child {
     transform: translateY(-200%);
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.7s;
 }
 
 .container.open>*:first-child {
     transform: translateY(0%);
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.7s;
 }
 
 .container>*:last-child {
     transform: translateY(200%);
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.7s;
 }
 
 .container.open>*:last-child {
     transform: translateY(0%);
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.7s;
 }
 
 
@@ -96,14 +96,8 @@ body {
 }
 
 h2 {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 100%;
     margin: 0;
     padding: 0.5rem;
-}
-
-h2:hover {
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .parrafo {
