@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+}
+
+.general_container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.container {
+    min-height: 100vh;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background-size: cover;
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
+    border-left: 2px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    transition: ease-in-out 0.8s;
+}
+
+.container:hover {
+    border-right: 2px solid rgba(0, 0, 0, 1);
+    border-left: 2px solid rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.open {
+    border-right: 2px solid rgba(0, 0, 0, 1);
+    border-left: 2px solid rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    flex: 5;
+
+}
+
+.open h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ease-in-out 0.5s;
+}
+
+.container>*:first-child {
+    transform: translateY(-200%);
+    transition: ease-in-out 0.5s;
+}
+
+.container.open>*:first-child {
+    transform: translateY(0%);
+    transition: ease-in-out 0.5s;
+}
+
+.container>*:last-child {
+    transform: translateY(200%);
+    transition: ease-in-out 0.5s;
+}
+
+.container.open>*:last-child {
+    transform: translateY(0%);
+    transition: ease-in-out 0.5s;
+}
+
+
+.container1 {
+    background-image: url(img/fantasy-g6857cfce6_1920.jpg);
+}
+
+.container2 {
+    background-image: url(img/trees-g997a7fb7e_1920.jpg);
+}
+
+.container3 {
+    background-image: url(img/alberta-gd958d51b4_1920.jpg);
+}
+
+.container4 {
+    background-image: url(img/road-g63af6fa31_1920.jpg);
+}
+
+.container5 {
+    background-image: url(img/dandelion-g08aeb31a9_1920.jpg);
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+h2:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.parrafo {
+    margin: 0;
+    font-size: 45px;
+    margin: 3rem 0;
+}
