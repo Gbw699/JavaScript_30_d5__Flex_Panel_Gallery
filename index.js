@@ -1,6 +1,5 @@
 const container = document.querySelectorAll(".container");
 
-let aux = "";
 container.forEach((call) => {
   call.addEventListener("click", (change) => {
     call.classList.add("open");
